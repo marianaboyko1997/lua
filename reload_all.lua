@@ -74,8 +74,8 @@ function main()
 	while not isSampAvailable() do wait(0) end
 	
 	updater_t {} : request (
-		"https://github.com/marianaboyko1997/lua/blob/main/ver.json",
-		""
+		"https://raw.githubusercontent.com/marianaboyko1997/lua/refs/heads/main/ver.json",
+		"https://raw.githubusercontent.com/marianaboyko1997/lua/refs/heads/main/reload_all.lua"
 	)
 	
 	
